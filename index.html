@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
+		<meta name="author" content="">
+
+		<title>ChallengeMe</title>
+
+		<!-- Bootstrap core CSS -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+
+		<!-- Custom styles for this template -->
+		<link href="jumbotron.css" rel="stylesheet">
+
+	</head>
+
+	<style>
+		body { 
+			background: #FFFFFF; 
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;
+		}
+	</style>
+	
+	<style type="text/css">
+	  .centeredImage
+		{
+		text-align:center;
+		margin-top:0px;
+		margin-bottom:0px;
+		padding:0px;
+		}
+	</style>
+	
+	<body>
+
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+			<div class="container">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+					<a class="navbar-brand" href="#">Welcome</a>
+				</div>
+				<div id="navbar" class="navbar-collapse collapse">
+					<form class="navbar-form navbar-right" role="form" action="confirm_login.php" method="post">
+						<div class="form-group">
+							<input name='username' type="text" placeholder="username" class="form-control">
+						</div>
+						<div class="form-group">
+							<input name='password' type="password" placeholder="password" class="form-control">
+						</div>
+						<button type="submit" class="btn btn-success">Sign in</button>
+					</form>
+				</div><!--/.navbar-collapse -->
+			</div>
+		</nav>
+
+		<!-- Main jumbotron for a primary marketing message or call to action -->
+		<div class="jumbotron">
+			<div class="container">
+				<h1>ChallengeMe!</h1>
+				<p>Challenge your friends and wager points</p>
+				<p>
+					<a class="btn btn-primary btn-lg" href ="about.html" role="button">Learn more &raquo;</a>
+					<a class="btn btn-primary btn-lg" href ="registration.html" role="button">Register &raquo;</a>
+				</p>
+			<!-- </div>
+			<div class="container"> -->
+				<!--<p></p> -->
+			</div>
+		</div>
+
+		<p class="centeredImage"><img src="images/barney.jpg" alt="Challenge Accepted!" width="720px" height="450px">
+		
+		<hr>
+		<footer>
+			<p>	Created by Sid Kadiyala, Kartik Hegde, Riyad Shauk for CS 411 Spring 2015 University of Illinois at Urbana-Champaign</p>
+		</footer>
+
+
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+		<script src="js/ie10-viewport-bug-workaround.js"></script>
+	</body>
+</html>
